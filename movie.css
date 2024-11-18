@@ -1,0 +1,65 @@
+        /* movieDetail */
+        a {text-decoration: none; }
+        .movieDetail-index{padding: 3em; border: 1px solid black;  height: 100%;width: 100%;max-width: 1600px;margin: 0 auto;}
+        .movieDetail-Box{display: flex; justify-content: space-between;padding-bottom: 5em;}
+        .movieDetail-fb1{display: flex; height: 100%;width: 50%;     justify-content: center;}
+        .movieDetail-fb2{width: 50%;padding: 1em;}
+        /*.movieDetail-fb2 div:nth-child(0){padding: 1em;}*/
+        .md-info1{display: flex;padding-bottom: 3em;}
+        .md-info1 ul:nth-child(1){display: flex;width: 50%;}
+        .md-info1 ul:nth-child(1) li:nth-child(1){font-size: 24px;}
+        .md-info1 ul:nth-child(2){display: flex;width: 50%;}
+        .md-info1 ul:nth-child(2) li:nth-child(1){padding-right: 0.5em;font-size: 24px;}
+        .md-info1 ul:nth-child(2) li:nth-child(2){font-size: 24px;}
+
+        .md-info2{display: flex;padding-bottom: 1.5em;}
+        .md-info2 ul:nth-child(1){display: flex;}
+        .md-info2 ul:nth-child(1) li{word-break: keep-all;font-size: 24px;}
+        .md-info2 ul:nth-child(2){display: flex;flex-wrap: wrap; }
+        .md-info2 ul:nth-child(2) li {padding: 0 0 15px 10px;font-size: 24px;}
+        
+        .md-info3{}
+        .md-info3 ul:nth-child(1){display: flex;width: 100%;padding-bottom: 1em;} 
+        .md-info3 ul:nth-child(1) > li:nth-child(1){font-size: 24px;}
+        .md-info3 ul:nth-child(2){display: flex;flex-wrap: wrap; }
+        .md-info3 ul:nth-child(2) > li:nth-child(1){font-size: 28px;}
+        .rating-Box{display: flex;justify-content: space-between;padding-bottom:2em;}
+        .reserv-Box{display: flex;align-items: center;border: 1px solid;margin-right: 125px;text-align: center;}
+        
+        .reserv-Box > a{width: 400px;}
+        .reserv-Box > a > div{font-size: 32px;}
+
+        .reservation-Rationg{display: flex;align-items: center;}
+        .md-review{}
+        .md-review p {font-size: 24px;}
+        .md-review input{width: 90%;height: 4vh;}
+        .review-Comments{}
+        .review-Comments ul:nth-child(1){padding-bottom: 0.4em;font-size: 20px;display: flex; justify-content: space-between;}
+        .review-Comments > ul:nth-child(1) > li:nth-child(1) {}
+
+        .review-Comments ul:nth-child(2){display: flex;font-size: 18px;padding-bottom: 0.8em;}
+        .review-Comments ul:nth-child(2) li {padding-right: 1.5em;}
+
+        .review-Comments ul:nth-child(3){display: flex;height: 15vh;align-items: center;justify-content: center;border: 1px solid black;border-radius: 15px;}
+        .review-Comments ul:nth-child(4){}
+        .review-Comments ul:nth-child(4) > li:nth-child(2){font-size: 24px;}
+        .comment{display: flex;justify-content: space-between;font-size: 32px;}
+        /* movieDetail */
+
+        
+        /* reservation  */
+        .reserv-wrap{height: 500px;width: 100%;max-width: 1600px;margin: 0 auto;}
+        .reserv-index{border: 1px solid black; display: flex;}
+        .reserv-infoBox{border: 1px solid red;width: 50%;}
+
+        .reserv-infoBox ul{display: flex;flex-wrap: wrap;}
+        .reserv-infoBox ul li:nth-child(2){width: 85%;}
+        .reserv-infoBox ul li:nth-child(4){width: 96%;}
+        .reserv-infoBox ul li:nth-child(6){width: 85%;}
+
+        .seat-Box{margin: 1em; border: 1px solid green;display: flex;flex-wrap: wrap;}
+        .seat-Box >div {margin: 1em;width: 100px;}
+
+        .reserv-NextBtn{display: flex;}
+        .reserv-NextBtn > a{width: 50%;text-align: center;}
+        /* reservation  */
